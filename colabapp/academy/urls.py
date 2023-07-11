@@ -1,3 +1,5 @@
 from django.urls import path
-
-urlpatterns =[]
+from .views import v_course
+urlpatterns =[
+    path('course', v_course)
+]
